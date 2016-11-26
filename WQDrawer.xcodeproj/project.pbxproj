@@ -7,14 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A7B76851DE95F8F00414DE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7B76841DE95F8F00414DE6 /* main.m */; };
-		0A7B76881DE95F8F00414DE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7B76871DE95F8F00414DE6 /* AppDelegate.m */; };
-		0A7B768B1DE95F8F00414DE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7B768A1DE95F8F00414DE6 /* ViewController.m */; };
-		0A7B768E1DE95F8F00414DE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A7B768C1DE95F8F00414DE6 /* Main.storyboard */; };
-		0A7B76901DE95F8F00414DE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A7B768F1DE95F8F00414DE6 /* Assets.xcassets */; };
-		0A7B76931DE95F8F00414DE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A7B76911DE95F8F00414DE6 /* LaunchScreen.storyboard */; };
-		0A7B769E1DE95F8F00414DE6 /* WQDrawerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7B769D1DE95F8F00414DE6 /* WQDrawerTests.m */; };
-		0A7B76A91DE95F8F00414DE6 /* WQDrawerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7B76A81DE95F8F00414DE6 /* WQDrawerUITests.m */; };
+		0A7B76B81DE95FDB00414DE6 /* WQDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7B76B71DE95FDB00414DE6 /* WQDrawerController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,22 +28,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A7B76801DE95F8F00414DE6 /* WQDrawer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WQDrawer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A7B76841DE95F8F00414DE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0A7B76861DE95F8F00414DE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		0A7B76871DE95F8F00414DE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0A7B76891DE95F8F00414DE6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0A7B768A1DE95F8F00414DE6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0A7B768D1DE95F8F00414DE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0A7B768F1DE95F8F00414DE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0A7B76921DE95F8F00414DE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0A7B76941DE95F8F00414DE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0A7B76991DE95F8F00414DE6 /* WQDrawerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WQDrawerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A7B769D1DE95F8F00414DE6 /* WQDrawerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WQDrawerTests.m; sourceTree = "<group>"; };
-		0A7B769F1DE95F8F00414DE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0A7B76A41DE95F8F00414DE6 /* WQDrawerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WQDrawerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A7B76A81DE95F8F00414DE6 /* WQDrawerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WQDrawerUITests.m; sourceTree = "<group>"; };
-		0A7B76AA1DE95F8F00414DE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A7B76801DE95F8F00414DE6 /* WQDrawer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = WQDrawer.app; path = "/Users/li/Desktop/WQDrawer/build/Debug-iphoneos/WQDrawer.app"; sourceTree = "<absolute>"; };
+		0A7B76991DE95F8F00414DE6 /* WQDrawerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = WQDrawerTests.xctest; path = "/Users/li/Desktop/WQDrawer/build/Debug-iphoneos/WQDrawerTests.xctest"; sourceTree = "<absolute>"; };
+		0A7B76A41DE95F8F00414DE6 /* WQDrawerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = WQDrawerUITests.xctest; path = "/Users/li/Desktop/WQDrawer/build/Debug-iphoneos/WQDrawerUITests.xctest"; sourceTree = "<absolute>"; };
+		0A7B76B61DE95FDB00414DE6 /* WQDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQDrawerController.h; sourceTree = "<group>"; };
+		0A7B76B71DE95FDB00414DE6 /* WQDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQDrawerController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,62 +64,16 @@
 			isa = PBXGroup;
 			children = (
 				0A7B76821DE95F8F00414DE6 /* WQDrawer */,
-				0A7B769C1DE95F8F00414DE6 /* WQDrawerTests */,
-				0A7B76A71DE95F8F00414DE6 /* WQDrawerUITests */,
-				0A7B76811DE95F8F00414DE6 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		0A7B76811DE95F8F00414DE6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0A7B76801DE95F8F00414DE6 /* WQDrawer.app */,
-				0A7B76991DE95F8F00414DE6 /* WQDrawerTests.xctest */,
-				0A7B76A41DE95F8F00414DE6 /* WQDrawerUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		0A7B76821DE95F8F00414DE6 /* WQDrawer */ = {
 			isa = PBXGroup;
 			children = (
-				0A7B76861DE95F8F00414DE6 /* AppDelegate.h */,
-				0A7B76871DE95F8F00414DE6 /* AppDelegate.m */,
-				0A7B76891DE95F8F00414DE6 /* ViewController.h */,
-				0A7B768A1DE95F8F00414DE6 /* ViewController.m */,
-				0A7B768C1DE95F8F00414DE6 /* Main.storyboard */,
-				0A7B768F1DE95F8F00414DE6 /* Assets.xcassets */,
-				0A7B76911DE95F8F00414DE6 /* LaunchScreen.storyboard */,
-				0A7B76941DE95F8F00414DE6 /* Info.plist */,
-				0A7B76831DE95F8F00414DE6 /* Supporting Files */,
+				0A7B76B61DE95FDB00414DE6 /* WQDrawerController.h */,
+				0A7B76B71DE95FDB00414DE6 /* WQDrawerController.m */,
 			);
 			path = WQDrawer;
-			sourceTree = "<group>";
-		};
-		0A7B76831DE95F8F00414DE6 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				0A7B76841DE95F8F00414DE6 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		0A7B769C1DE95F8F00414DE6 /* WQDrawerTests */ = {
-			isa = PBXGroup;
-			children = (
-				0A7B769D1DE95F8F00414DE6 /* WQDrawerTests.m */,
-				0A7B769F1DE95F8F00414DE6 /* Info.plist */,
-			);
-			path = WQDrawerTests;
-			sourceTree = "<group>";
-		};
-		0A7B76A71DE95F8F00414DE6 /* WQDrawerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				0A7B76A81DE95F8F00414DE6 /* WQDrawerUITests.m */,
-				0A7B76AA1DE95F8F00414DE6 /* Info.plist */,
-			);
-			path = WQDrawerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +169,7 @@
 				Base,
 			);
 			mainGroup = 0A7B76771DE95F8F00414DE6;
-			productRefGroup = 0A7B76811DE95F8F00414DE6 /* Products */;
+			productRefGroup = 0A7B76771DE95F8F00414DE6;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -249,9 +185,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A7B76931DE95F8F00414DE6 /* LaunchScreen.storyboard in Resources */,
-				0A7B76901DE95F8F00414DE6 /* Assets.xcassets in Resources */,
-				0A7B768E1DE95F8F00414DE6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A7B768B1DE95F8F00414DE6 /* ViewController.m in Sources */,
-				0A7B76881DE95F8F00414DE6 /* AppDelegate.m in Sources */,
-				0A7B76851DE95F8F00414DE6 /* main.m in Sources */,
+				0A7B76B81DE95FDB00414DE6 /* WQDrawerController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +217,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A7B769E1DE95F8F00414DE6 /* WQDrawerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +224,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A7B76A91DE95F8F00414DE6 /* WQDrawerUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,25 +241,6 @@
 			targetProxy = 0A7B76A51DE95F8F00414DE6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		0A7B768C1DE95F8F00414DE6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0A7B768D1DE95F8F00414DE6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0A7B76911DE95F8F00414DE6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0A7B76921DE95F8F00414DE6 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0A7B76AB1DE95F8F00414DE6 /* Debug */ = {
